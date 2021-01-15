@@ -1,6 +1,6 @@
 const React = require('react');
 const ReactDOM = require('react-dom');
-const App = require('./src/components/App')(feedsStore);
+const App = require('./src/App')(feedsStore);
 const serviceWorker = require('./serviceWorker');
 const { FeedsStore } = require('./src/store');
 require('./index.css');
